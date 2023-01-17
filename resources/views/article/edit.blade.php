@@ -1,4 +1,4 @@
-@extends('layouts.app')
+@extends('layouts.appArticles')
 
 @section('title')
     Bikin Artikel Baru
@@ -14,7 +14,7 @@
         <x-textarea field="subject" label="Deskripsi" value="{{$article->subject}}"/>
 
         @if ($article->thumbnail)
-            <img src="/images/{{ $article->thumbnail }}">
+            <img src="/images/{{ $article->thumbnail }}" class="w-25">
         @else
             <p>Kamu belum punya thumbnail</p>
         @endif

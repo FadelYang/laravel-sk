@@ -1,4 +1,4 @@
-@extends('layouts.app')
+@extends('layouts.appArticles')
 
 @section('title')
     Bikin Artikel Baru
@@ -14,6 +14,6 @@
         <x-inputfile />
 
 
-        <button type="submit" class="btn btn-primary">Submit</button>
+        <button type="submit" class="btn btn-dark mt-5">Submit</button>
     </form>
 @endsection

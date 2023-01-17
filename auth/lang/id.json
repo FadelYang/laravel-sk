@@ -1,0 +1,9 @@
+{
+    "Register": "Daftar",
+    "Login": "Masuk",
+    "Forgot Your Password?": "Lupa Password?",
+    "Email Address": "Alamat Email",
+    "You are receiving this email because we received a password reset request for your account.": "Kamu menerima email ini karena kami menerima permohonan untuk reset password",
+    "Reset Password Notification": "Notifikasi Reset Password",
+    "These credentials do not match our records.": "username atau email tidak ditemukan"
+}

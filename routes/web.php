@@ -2,6 +2,8 @@
 
 use App\Http\Controllers\articleController;
 use Illuminate\Support\Facades\Route;
+use Illuminate\Support\Facades\Auth;
+
 
 // controller
 // route
@@ -30,3 +32,7 @@ Route::resource('article', articleController::class);
 // Auth::routes();
 
 // Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+
+Auth::routes();
+
+// Route::get('/article', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
