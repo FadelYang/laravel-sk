@@ -9,6 +9,7 @@
         <img src="/images/{{$article->thumbnail}}" class="w-75">
     @endif
     <h1 class="mt-3">{{ $article->title }}</h1>
+    <p class="text-mute">{{$article->created_at->format('D, d M Y')}}</p>
     <p class="mt-5">
         {!! \Michelf\Markdown::defaultTransform($article->subject)!!}
     </p>
